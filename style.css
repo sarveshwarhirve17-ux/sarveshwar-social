@@ -70,12 +70,19 @@
     padding: 10px;
     flex-direction: column;
     align-items: center;
-    height: 1000px;
+    /* height: 1000px; */
+    min-height: 100vh;
     
     font-size: 28px;
     width: 25%;
-    background-color: lightblue;
-    text-align: center;
+    /* background-color: lightblue; */
+    text-align: left;
+    margin-top: 20px;
+}
+.left h3:hover{
+     transform: scale(1.03);
+    transition: 0.3s;
+    color: green;
 }
 
 .profile-card h3{
@@ -102,30 +109,56 @@
 .center{
      display: flex;
     
-    padding: 10px;
+    padding: 30px;
     flex-direction: column;
     align-items: center ;
-    height: 300px;
+    /* height: 300px; */
+    min-height: 100vh;
     
-    font-size: 26px;
+    font-size: 16px;
     width: 50%;
     text-align: center;
 }
 
-.post h3{
+.post1 h3{
     margin-top: 15px;
+    font-size: 40px;
+}
+.post2 h3{
+    margin-top: 15px;
+        font-size: 40px;
+
 }
 
-.post p{
+.post1 p{
+    margin-top: 5px;
+    line-height: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+.post2 p{
+    margin-top: 5px;
+    line-height: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.post1 img{
+    width: 70%;
+    height: auto;
+    /* max-width: 600px; */
     margin-top: 10px;
+    flex-wrap: wrap;
+    border: 2px solid gray;
 }
-
-.post img{
-    width: 25%;
-    height: 300px;
+.post2 img{
+    width: 87%;
+    height: auto;
     /* max-width: 600px; */
     object-fit: cover;
-    margin-top: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    border: 2px solid gray;
 }
 
 .center input{
@@ -162,7 +195,7 @@
     
     font-size: 28px;
     width: 25%;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     text-align: left;
 }
 
@@ -195,5 +228,10 @@
     padding: 20px;
     /* margin-top: 30px; */
     /* width: 100%; */
+}
+
+.footer :hover{
+     transform: scale(1.03);
+    transition: 0.3s;
 }
 
