@@ -5,11 +5,13 @@
 
 .navbar{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background-color: black;
     color: white;
     padding: 10px;
+    background-color: lightblue;
 }
 
 .logo{
@@ -28,6 +30,7 @@
     padding: 10px;
     width: 200px;
     border: 2px solid blue;
+    flex-wrap: wrap;
 }
 
 .search button{
@@ -47,12 +50,15 @@
 .link{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .link a{
     padding: 10px;
     font-size: 20px;
-    color: white;
+    color: darkblue;
+    text-decoration: none;
+
 }
 
 .link a:hover{
@@ -66,6 +72,7 @@
 
 .left{
     display: flex;
+    flex-wrap: wrap;
     /* justify-content: space-around; */
     padding: 10px;
     flex-direction: column;
@@ -75,9 +82,9 @@
     
     font-size: 28px;
     width: 25%;
-    /* background-color: lightblue; */
+    background-color: lightblue;
     text-align: left;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 .left h3:hover{
      transform: scale(1.03);
@@ -96,6 +103,7 @@
 
 .profile-card p{
     margin-top: 10px;
+    color: darkblue;
 }
 
 
@@ -112,8 +120,8 @@
 }
 
 .center{
-     display: flex;
-    
+    display: flex;
+    flex-wrap: wrap;
     padding: 30px;
     flex-direction: column;
     align-items: center ;
@@ -123,6 +131,7 @@
     font-size: 16px;
     width: 50%;
     text-align: center;
+    background-color: lightcyan;
 }
 
 .post h3{
@@ -185,21 +194,23 @@
 }
 
 .right{
-     display: flex;
+    display: flex;
+    flex-wrap: wrap;
     /* justify-content: space-around; */
     padding: 10px;
     flex-direction: column;
     align-items: center;
-    height: 1000px;
+    min-height: 100vh;
     
     font-size: 28px;
     width: 25%;
-    /* background-color: lightblue; */
+    background-color: lightblue;
     text-align: left;
 }
 
 .right p{
     margin-top: 10px;
+    color: darkblue;
 }
 
 .main-container{
@@ -224,6 +235,8 @@
     background-color: black;
     color: white;
     text-align: center;
+    font-weight: bold;
+    font-size: 20px;
     padding: 20px;
     /* margin-top: 30px; */
     /* width: 100%; */

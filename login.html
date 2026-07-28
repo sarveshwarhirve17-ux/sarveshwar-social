@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Job Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="margin: 0; background: rgb(183, 172, 194); font-family:Arial, sans-serif;">
+
+<nav class="navbar" style="background: #111827; color: white; padding: 20px;">
+    <div class="logo" style="font-size: 32px; font-weight: bold;">Linkdln.in</div>
+</nav>
+
+<div class="form-box" style="width: 350px; margin: 60px auto; background: white; padding: 30px; border-radius: 10px;">
+    <form action="http://127.0.0.1:8000/login" method="post">
+
+    <h2 style="text-align: center; margin-bottom: 25px;">Login</h2>
+
+    <input type="email" id="email" name="email" placeholder="Email" style="width: 80%; padding: 12px; border: 1px solid black; border-radius: 6px;"><br><br>
+
+    <input type="password" id="password" name="password" placeholder="Password" style="width: 80%; padding: 12px; border: 1px solid black; border-radius: 6px;"><br><br>
+
+    <button id="loginBtn" style="width: 50%; padding: 12px; background: brown; color: white; border-radius: 6px;  cursor: pointer;">
+        Login
+    </button>
+
+    <br><br>
+
+    <a href="signup.html" style="text-decoration: none; color:chocolate;">Create New Account</a>
+    </form>
+
+</div>
+
+<script src="login.js"></script>
+
+</body>
+</html>
